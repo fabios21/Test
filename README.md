@@ -17,7 +17,7 @@ En la carpeta "client" ejecutar `npm i`.
 ## Crear base de datos e importar datos (PostgreSQL)
 
 
-### -Crear base de datos en PostgreSQL
+### -Crear base de datos en PostgreSQL (Con el nombre de su preferencia)
 
 
 
@@ -31,7 +31,9 @@ En la carpeta "client" ejecutar `npm i`.
     `INSERT INTO users (img, name, test, date, amount, age, status, action) VALUES ('http://1.bp.blogspot.com/-uUhIFpoCfFQ/UznL2o99LyI/AAAAAAAAPCc/oL7mirrs3vI/s1600/fotografia-cara-mujer-joven-rostro.jpg', 'Quang Huy', 'SAT', 'Counseling', '$4000', '1 week ago', 'Draft', 'Edit plan'), ('https://blog.hubspot.es/hubfs/mejoresbancosdeimagenesnegativespace.jpeg', 'Huy Tran', 'TOEFL', 'September 2020', '$4000', '4 days ago', 'Draft', 'Edit plan'), ('https://cdn-images.livecareer.es/pages/foto_cv_lc_es_4.jpg', 'Cristian Ferrari', 'SAT', 'September 2020', '$4000', '6 hours ago', 'Pending', 'Send reminder'), ('http://1.bp.blogspot.com/-DLEzvn7DmE0/UV3JNoevsbI/AAAAAAAAJXk/aUnoV0oATS0/s1600/hombre-rostro-fotografia-sin-derechos-autor.jpg', 'Luca Nicolas', 'SAT', 'December 2020', '$4000', '3 days ago', 'Pending', 'Send reminder'), ('https://i0.wp.com/www.diarlu.com/wp-content/uploads/2019/09/cara-hombre-sonriendo.jpg?resize=500%2C500&ssl=1', 'John Carraha', 'ACT', 'September 2020', '$4000', '5 min ago', 'Pending', 'Send reminder'), ('http://4.bp.blogspot.com/-vrsBj3YssoM/VO5R0Q0PL3I/AAAAAAAASBM/IcOF9VmaAKA/s1600/retrato-hombre-joven-peque%C3%B1o-rostro-sin-copyright.jpg', 'Nicolas Martignone', 'ACT', 'September 2020', '$4000', '2 days ago', 'Pending', 'Send reminder'), ('https://i0.wp.com/www.diarlu.com/wp-content/uploads/2019/09/hombre-maduro-guapo.jpg?resize=500%2C500&ssl=1', 'Felix Tran', 'TOEFL', 'Octuber 2020', '$4000', '50% (16/32)', 'In progress', 'View plan'), ('http://1.bp.blogspot.com/-uUhIFpoCfFQ/UznL2o99LyI/AAAAAAAAPCc/oL7mirrs3vI/s1600/fotografia-cara-mujer-joven-rostro.jpg', 'Quang Huy', 'SAT', 'Counseling', '$4000', '1 week ago', 'In progress', 'View plan'), ('https://blog.hubspot.es/hubfs/mejoresbancosdeimagenesnegativespace.jpeg', 'Huy Tran', 'TOEFL', 'September 2020', '$4000', '4 days ago', 'In progress', 'View plan'), ('https://cdn-images.livecareer.es/pages/foto_cv_lc_es_4.jpg', 'Cristian Ferrari', 'SAT', 'September 2020', '$4000', '6 hours ago', 'In progress', 'View plan'), ('http://1.bp.blogspot.com/-DLEzvn7DmE0/UV3JNoevsbI/AAAAAAAAJXk/aUnoV0oATS0/s1600/hombre-rostro-fotografia-sin-derechos-autor.jpg', 'Luca Nicolas', 'SAT', 'December 2020', '$4000', '3 days ago', 'In progress', 'View plan'), ('https://i0.wp.com/www.diarlu.com/wp-content/uploads/2019/09/cara-hombre-sonriendo.jpg?resize=500%2C500&ssl=1', 'John Carraha', 'ACT', 'September 2020', '$4000', '5 min ago', 'In progress', 'View plan'), ('http://4.bp.blogspot.com/-vrsBj3YssoM/VO5R0Q0PL3I/AAAAAAAASBM/IcOF9VmaAKA/s1600/retrato-hombre-joven-peque%C3%B1o-rostro-sin-copyright.jpg', 'Nicolas Martignone', 'ACT', 'September 2020', '$4000', '2 days ago', 'In progress', 'View plan'), ('https://i0.wp.com/www.diarlu.com/wp-content/uploads/2019/09/hombre-maduro-guapo.jpg?resize=500%2C500&ssl=1', 'Felix Tran', 'TOEFL', 'Octuber 2020', '$4000', '50% (16/32)', 'Completed', 'View plan');`
 
 #### N° 2 Agregar información desde pgAdmin
-1) Click derecho a base de datos/ Restore/ 
+Carpeta con base de datos [https://drive.google.com/drive/folders/1lkMoFG0_iEI0K_IlW1QrSbMojDbO0QpA?usp=sharing](https://drive.google.com/drive/folders/1lkMoFG0_iEI0K_IlW1QrSbMojDbO0QpA?usp=sharing)
+
+1) En pgAdmin, click derecho a base de datos/ Restore/ 
 2) Format: Directory
 3) Filename: -Seleccione la carpeta "Backup Test Full Stack"-
 4) Click en Restore
@@ -47,3 +49,5 @@ Ejecute `npm run dev`
 ## Iniciar la interfaz
 
 Ejecute `npm start`
+
+![alt text](https://github.com/fabios21/Test/blob/main/client/public/ImgTest.png?raw=true)
