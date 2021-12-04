@@ -19,24 +19,24 @@ const Panel = () => {
 
   return (
     <div class="col-12" className="div-panel">
-        <div class="row my-1">
+        <div class="row mb-3">
             <div class="col-1.5 mx-2 text-black">All plans</div>
             <div class="col-1.5 mx-2  text-secondary">Recently sent</div>
             <div class="col-1.5 mx-2  text-secondary">Previously sent</div>
             <div class="col-1.5 mx-2  text-secondary">Last approved</div>
             <div class="col-1.5 mx-2  text-secondary">Finish soon</div>
             <div class="col-1.5 mx-2 text-secondary">Group plants</div>
-            <div class="col-3 mx-2 text-right  text-secondary"> Buscar <i class="bi bi-search mx-2"></i></div>
+            <div class="col-3 ml-3 text-right  text-secondary"> Buscar <i class="bi bi-search mx-2"></i></div>
         </div>
         
-        <div class="row text-secondary my-2">
+        <div class="row text-secondary my-3">
             <div class="col-6">
                 <div class="row">
-                    <div class="col rounded-pill bg-light text-primary text-center mr-1">Service <small><small><i class="bi bi-chevron-down bi-xs"></i></small></small></div>
-                    <div class="col rounded-pill bg-light text-primary text-center mr-1">Topics <small><small><i class="bi bi-chevron-down bi-xs"></i></small></small></div>
-                    <div class="col rounded-pill bg-light text-primary text-center mr-1">Test date <small><small><i class="bi bi-chevron-down bi-xs"></i></small></small></div>
-                    <div class="col rounded-pill bg-light text-primary text-center mr-1">Status <small><small><i class="bi bi-chevron-down bi-xs"></i></small></small></div>
-                    <div class="col rounded-pill bg-light text-primary text-center"><small><small><i class="bi bi-funnel"></i></small></small> Filters</div>
+                    <div class="col rounded-pill text-primary text-center mr-1" style={{backgroundColor: "#ECF3F4"}}><small> Service <small><i class="bi bi-chevron-down bi-xs"></i></small></small></div>
+                    <div class="col rounded-pill text-primary text-center mr-1" style={{backgroundColor: "#ECF3F4"}}><small> Topics <small><i class="bi bi-chevron-down bi-xs"></i></small></small></div>
+                    <div class="col rounded-pill text-primary text-center mr-1" style={{backgroundColor: "#ECF3F4"}}><small> Test date <small><i class="bi bi-chevron-down bi-xs"></i></small></small></div>
+                    <div class="col rounded-pill text-primary text-center mr-1" style={{backgroundColor: "#ECF3F4"}}><small> Status <small><i class="bi bi-chevron-down bi-xs"></i></small></small></div>
+                    <div class="col rounded-pill text-primary text-center" style={{backgroundColor: "#ECF3F4"}}><small><small><i class="bi bi-funnel"></i></small> Filters </small></div>
                 </div>
             </div>
             <div class="col-6">
